@@ -6,20 +6,7 @@ import React, {useState} from 'react'
 export default function Home() {
 
     const [stats, setStats] = useState({
-        nome: '',
-        cargo: '',
-        birth: '',
-        addres: '',
-        bairro: '',
-        cidade: '',
-        cep: '',
-        phone: '',
-        contact: '',
-        email: '',
-        identity: '',
-        cpf: '',
-        isDriver: '',
-        habilitacao: ''
+
     })
 
     const data =[
