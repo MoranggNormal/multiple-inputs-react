@@ -44,7 +44,7 @@ export default function Home() {
                     name={name}
                     type={type}
                     placeholder={name}
-                    onChange={(e) => setStats({[e.target.name]: e.target.value})} 
+                    onChange={(e) => setStats({...stats, [e.target.name]: e.target.value})} 
                 /&gt;
         )}
 
